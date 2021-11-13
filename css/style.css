@@ -13,3 +13,22 @@
     text-align: center;
     margin: 30px auto 10px auto;
 }
+
+.card {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    height: fit-content;
+    display: block;
+}
+
+.card-image {
+    margin: 10px auto 5px auto;
+    max-width: 935px;
+    display: block;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    padding-bottom: 15px;
+}
