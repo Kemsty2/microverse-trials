@@ -1,9 +1,14 @@
+*{
+    @import "";
+}
+
 .main-bloc{
     background-color: rgba(0,0,0,.05);
     border-radius: 5px;
     display: block;
     margin: 20px 10px;
-    height: 1000px;
+    height: fit-content;
+    padding-bottom: 20px;
 }
 
 .title-container{
@@ -19,16 +24,54 @@
     margin: 10px;
     height: fit-content;
     display: block;
+    padding: 20px;
 }
 
 .card-image {
     margin: 10px auto 5px auto;
     max-width: 935px;
+    width: 100%;
     display: block;
     text-align: center;
+    /*padding: 0 10px;*/
 }
 
 .card-text {
     text-align: center;
     padding-bottom: 15px;
+}
+
+.info-container h4{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.info-container > ul > li{
+    margin: 10px 0;
+    /*border: solid black 1px;*/
+}
+
+.info-container > ul{
+    margin-bottom: 50px;
+    max-width: 600px;
+    margin-left: auto ;
+    margin-right: auto ;
+
+    /*border: solid red 1px;*/
+}
+
+.info-container > i{
+    max-width: 600px;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-bottom: 50px;
+    display: block;
+    /*border: solid blue 1px*/
+}
+
+.info-container > p{
+    text-align: center;
+    font-size: 20px;
 }
