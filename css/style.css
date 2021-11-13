@@ -1,0 +1,15 @@
+.main-bloc{
+    background-color: rgba(0,0,0,.05);
+    border-radius: 5px;
+    display: block;
+    margin: 20px 10px;
+    height: 1000px;
+}
+
+.title-container{
+    padding-top: 30px;
+    display: block;
+    max-width: 500px;
+    text-align: center;
+    margin: 30px auto 10px auto;
+}
